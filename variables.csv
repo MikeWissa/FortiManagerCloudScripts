@@ -1,0 +1,2 @@
+item,device_group_name,pkg_name,device_blueprint_name,device_name,platform_name,prefer_img_version,template_group,psk_value
+1,FGT-GCP,FGT-GCP,FORTIGATE-VM64-GCP,FGT-GCP-fw,FortiGate-VM64-GCP,7.2.5-b1517,TemplateGroup,test123
