@@ -38,4 +38,7 @@ For FortiManager Cloud the client_id is FortiManager
 ## Login to Fortimanager and Get the URL for your fortimanager instance
 this should be https://something.us-region-something.fortimanager.forticloud.com
 
-
+## Open the .env file and set the username, password which are api and password
+### Ensure that you put a \ before the !, the default passwod contains a \ and this would cause your script to break
+<style> @keyframes flash {   0% { opacity: 1; }   50% { opacity: 0; }   100% { opacity: 1; } } </style>
+<span style="color:red; animation: flash 1s infinite">This is red flashing text</span
