@@ -35,6 +35,7 @@ The first line is API key
 The 2nd line is the password
 For FortiManager Cloud the client_id is FortiManager
 
-
+## Login to Fortimanager and Get the URL for your fortimanager instance
+this should be https://something.us-region-something.fortimanager.forticloud.com
 
 
