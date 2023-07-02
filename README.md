@@ -38,6 +38,11 @@ For FortiManager Cloud the client_id is FortiManager
 ## Login to Fortimanager and Get the URL for your fortimanager instance
 this should be https://something.us-region-something.fortimanager.forticloud.com
 
+## git clone this repo
+
 ## Open the .env file and set the username, password which are api and password and the FortiManager Host URL instance
+
+## Modify the variables.csv file to add one line for each device you want to add
+![image](https://github.com/MikeWissa/FortiManagerCloudScripts/assets/6186228/e26abe85-fc5c-4d82-aef8-af5a16f70b8b)
 
 
