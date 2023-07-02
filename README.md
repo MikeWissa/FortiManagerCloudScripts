@@ -38,6 +38,6 @@ For FortiManager Cloud the client_id is FortiManager
 ## Login to Fortimanager and Get the URL for your fortimanager instance
 this should be https://something.us-region-something.fortimanager.forticloud.com
 
-## Open the .env file and set the username, password which are api and password
-### Ensure that you put a \ before the !, the default passwod contains a \ and this would cause your script to break
+## Open the .env file and set the username, password which are api and password and the FortiManager Host URL instance
+
 
