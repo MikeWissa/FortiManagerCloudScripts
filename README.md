@@ -45,4 +45,6 @@ this should be https://something.us-region-something.fortimanager.forticloud.com
 ## Modify the variables.csv file to add one line for each device you want to add
 ![image](https://github.com/MikeWissa/FortiManagerCloudScripts/assets/6186228/e26abe85-fc5c-4d82-aef8-af5a16f70b8b)
 
+## Run the shell script from your favorit bash or WSL
+bash add-to-fortimanager-cloud.sh
 
