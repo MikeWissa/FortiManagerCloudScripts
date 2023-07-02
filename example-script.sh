@@ -10,7 +10,8 @@ access_token=$(curl -s --location 'https://customerapiauth.fortinet.com/api/v1/o
     "client_id": "FortiManager",
     "grant_type": "password"
 }' | jq -r '.access_token')
-session=$(curl -s --location --globoff 'https://${FortiManagerHost}/forticloud_jsonrpc_login/' \
+URL=$FortiManagerHost
+session=$(curl -s --location --globoff 'https://${URL}/forticloud_jsonrpc_login/' \
 --data '{
     "access_token": "'"$access_token"'"
 }' | jq -r '.session')
