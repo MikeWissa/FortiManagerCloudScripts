@@ -1,5 +1,5 @@
 #!/bin/bash
-# In this example we login to FortiManager Cloud and Create a Policy Package, Device Group, Template Group, Device Blue Pritn, Add a device using pre-shared key
+# In this example we login to FortiManager Cloud and Create a Policy Package, Device Group, Template Group, Device Blue Print, Add a device using pre-shared key
 # loads the environment variables file, ensure that your password the \! is there otherwise it will not work
 source.env
 # The first step is to get the access token
