@@ -1,0 +1,25 @@
+{
+  "method": "add",
+  "params": [
+    {
+      "url": "pm/config/adom/root/obj/fmg/device/blueprint",
+      "data": {
+        "name": "device_blueprint_name",
+        "description": null,
+        "dev-group": [
+          "device_group_name"
+        ],
+        "folder": null,
+        "pkg": "pkg_name",
+        "platform": "platform_name",
+        "prefer-img-ver": "prefer_img_version",
+        "template-group": "template_group",
+        "cliprofs": [],
+        "prerun-cliprof": [],
+        "prov-type": "template-group",
+        "templates": []
+      }
+    }
+  ],
+    "session": "session_id"
+}

@@ -1,0 +1,17 @@
+{
+  "method": "add",
+  "params": [
+    {
+      "url": "/dvmdb/adom/root/group/device_group_name",
+      "data": {
+        "name": "device_group_name",
+        "desc": "",
+        "type": "normal",
+        "meta fields": {},
+        "os_type": "fos"
+      }
+    }
+  ],
+    "session": "session_id",
+    "id": 1
+}

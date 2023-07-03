@@ -1,0 +1,26 @@
+{
+  "id": "1",
+  "session": "session_id",
+  "method": "add",
+  "params": [
+    {
+      "url": "pm/config/adom/root/obj/fmg/device/blueprint",
+      "data": {
+        "name": "device_blueprint_name",
+        "description": null,
+        "dev-group": [
+          "device_group_name"
+        ],
+        "folder": null,
+        "pkg": "policy_package_name",
+        "platform": "FortiGate-VM64-GCP",
+        "prefer-img-ver": "7.2.5-b1517",
+        "template-group": "template_group_name",
+        "cliprofs": [],
+        "prerun-cliprof": [],
+        "prov-type": "template-group",
+        "templates": []
+      }
+    }
+  ]
+}

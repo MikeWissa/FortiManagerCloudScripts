@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "method": "get",
+  "params": [
+    {
+      "url": "url_path"
+    }
+  ],
+    "session": "session_id",
+    "id": 1
+}

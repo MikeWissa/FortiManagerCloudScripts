@@ -1,0 +1,43 @@
+{
+  "method": "exec",
+  "params": [
+    {
+      "url": "dvm/cmd/add/device",
+      "data": {
+        "adom": "root",
+        "flags": [
+          "create_task",
+          "nonblocking"
+        ],
+        "device": {
+          "name": "FGT-GCP-HA",
+          "adm_usr": "admin",
+          "os_ver": 7,
+          "version": 700,
+          "os_type": 0,
+          "mr": 2,
+          "platform_str": "platform_name",
+          "platform_id": 153,
+          "mgmt_mode": 3,
+          "flags": 67371040,
+          "prefer_img_ver": "7.2.5-b1517",
+          "build": 1517,
+          "branch_pt": 1517,
+          "psk": "psk_value",
+          "device blueprint": "device_blueprint_name",
+          "device action": "add_model",
+          "faz.perm": 15,
+          "faz.quota": 0
+        },
+        "groups": [
+          {
+            "adom": "root",
+            "name": "device_group_name"
+          }
+        ]
+      }
+    }
+  ],
+    "session": "session_id",
+    "id": 1
+}
