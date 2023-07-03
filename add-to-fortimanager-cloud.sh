@@ -1,6 +1,6 @@
 #!/bin/bash
 # In this example we login to FortiManager Cloud and Create a Policy Package, Device Group, Template Group, Device Blue Print, Add a device using pre-shared key
-# loads the environment variables file containing the credentials and URL for FortiManager Cloud as per readme file
+# loads the environment variable
 source .env
 # Read login payload from file
 template=$(<login_payload.json)
@@ -141,19 +141,7 @@ echo " "
 
 }
 
-# This function will get the url for the device
-generic_get_url () {
-echo "getting url"
-echo " "
-response=$(curl -s --trace-ascii test6.log --location --globoff $RPCURL --data \
-"$(cat 4-generic-get-url.yaml \
-| sed -e "s|session_id|$session|g" \
-| sed "s|url_path|$1|g")")
-echo $response
-echo " "
-echo "====================="
-echo " "
-}
+
 # This function will parse the csv file and set the variables
 Parse_csv() {
   IFS=$'\n'
