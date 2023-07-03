@@ -1,6 +1,6 @@
 #!/bin/bash
 # In this example we login to FortiManager Cloud and Create a Policy Package, Device Group, Template Group, Device Blue Print, Add a device using pre-shared key
-# loads the environment variables file, ensure that your password the \! is there otherwise it will not work
+# loads the environment variables file containing the credentials and URL for FortiManager Cloud as per readme file
 source .env
 # Read login payload from file
 template=$(<login_payload.json)
