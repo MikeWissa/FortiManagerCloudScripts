@@ -1,0 +1,17 @@
+{
+  "method": "add",
+  "params": [
+    {
+      "data": [
+      {
+        "description": "metadata_variable_name",
+        "name": "metadata_variable_name",
+        "value": ""
+        }
+       ],
+      "url": "/pm/config/adom/root/obj/fmg/variable"
+      }
+      ],
+"session": "session_id",
+"id": 1
+}

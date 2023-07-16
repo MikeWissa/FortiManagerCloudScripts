@@ -1,0 +1,21 @@
+{
+  "method": "add",
+  "params": [
+    {
+      "data": [
+        {
+          "name": "policy_package_name",
+          "package settings": {
+            "central-nat": "disable",
+            "ngfw-mode": "profile-based",
+            "policy-offload-level": "disable"
+          },
+          "type": "pkg"
+        }
+      ],
+      "url": "/pm/pkg/adom/root"
+    }
+  ],
+  "session": "session_id",
+  "id": 1
+}

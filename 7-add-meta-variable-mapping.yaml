@@ -1,0 +1,21 @@
+{
+  "method": "set",
+  "params": [
+    {
+      "data": [
+      {
+        "_scope": [
+            {
+              "name": "firewall_name",
+              "vdom": "firewall_vdom"
+            }
+        ],
+        "value": "metadata_variable_value"
+      }
+      ],
+        "url": "/pm/config/adom/root/obj/fmg/variable/metadata_variable_name/dynamic_mapping",
+    }
+ ],
+"session": "session_id",
+"id": 1
+}

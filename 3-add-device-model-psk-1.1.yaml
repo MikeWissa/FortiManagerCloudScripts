@@ -1,0 +1,41 @@
+{
+  "method": "exec",
+  "params": [
+    {
+      "url": "dvm/cmd/add/device",
+      "data": {
+        "adom": "root",
+        "flags": [
+          "create_task",
+          "nonblocking"
+        ],
+        "device": {
+          "name": "device_name",
+          "adm_usr": "admin",
+          "os_ver": 7,
+          "version": 700,
+          "os_type": 0,
+          "mr": 2,
+          "platform_str": "platform_type",
+          "platform_id": 153,
+          "mgmt_mode": 3,
+          "flags": 67371040,
+          "prefer_img_ver": "min_ver",
+          "psk": "psk_value",
+          "device blueprint": "blue_print",
+          "device action": "add_model",
+          "faz.perm": 15,
+          "faz.quota": 0
+        },
+        "groups": [
+          {
+            "adom": "root",
+            "name": "device_group"
+          }
+        ]
+      }
+    }
+  ],
+    "session": "session_id",
+    "id": 1
+}

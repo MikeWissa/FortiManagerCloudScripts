@@ -1,0 +1,39 @@
+{
+  "method": "exec",
+  "params": [
+    {
+      "url": "dvm/cmd/add/device",
+      "data": {
+        "adom": "root",
+        "flags": [
+          "create_task",
+          "nonblocking"
+        ],
+        "device": {
+          "name": "device_name",
+          "adm_usr": "admin",
+          "os_ver": 7,
+          "version": 700,
+          "os_type": 0,
+          "mr": 2,
+          "platform_str": "platform_type",
+          "mgmt_mode": 3,
+          "flags": 67371040,
+          "prefer_img_ver": "min_ver",
+          "build": 1517,
+          "branch_pt": 1517,
+          "sn": "device_sn",
+          "faz.perm": 15,
+          "faz.quota": 0
+        },
+        "groups": [
+          {
+            "name": "device_group"
+          }
+        ]
+      }
+    }
+  ],
+  "session": "session_id",
+  "id": 1
+}

@@ -4,15 +4,15 @@
     {
       "url": "pm/config/adom/root/obj/fmg/device/blueprint",
       "data": {
-        "name": "device_blueprint_name",
+        "name": "blue_print",
         "description": null,
         "dev-group": [
-          "device_group_name"
+          "device_group"
         ],
         "folder": null,
-        "pkg": "pkg_name",
-        "platform": "platform_name",
-        "prefer-img-ver": "prefer_img_version",
+        "pkg": "policy_package",
+        "platform": "platform_type",
+        "prefer-img-ver": "min_ver",
         "template-group": "template_group",
         "cliprofs": [],
         "prerun-cliprof": [],
