@@ -3,7 +3,7 @@
 # loads the environment variable
 # This script is intended to be used with the FortiManager Cloud API
 source .env
-source subfunctions36.sh
+source subfunctions.sh
 
 
 # Read login payload from file
