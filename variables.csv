@@ -1,2 +1,6 @@
-﻿item,device_group_name,pkg_name,device_blueprint_name,device_name,platform_name,prefer_img_version,template_group,psk_value
-1,FGT-GCP,FGT-GCP-PKG,FGT-GCP-FW-BPRT,FGT-GCP-FW,FortiGate-VM64-GCP,7.2.5-b1517,TemplateGroup,test123
+device_group,device_sn,policy_package,blue_print,device_name,platform_type,min_ver,template_group,psk_name
+FGT-GCP-GRP,FGVMSLTM23nnnnn,FGT-GCP-PKG,FGT-GCP-FW-BPRT,FGT-GCP-FW1,FortiGate-VM64-GCP,7.2.5-b1517,TemplateGroup,none
+FGT-GCP-GRP2,FGVMSLTM23nnnnn,FGT-GCP-PKG2,FGT-GCP-FW-BPRT2,FGT-GCP-FW2,FortiGate-VM64-GCP,7.2.5-b1517,TemplateGroup,none
+FGT-GCP-GRP,none,FGT-GCP-PKG,FGT-GCP-FW-BPRT,FGT-GCP-FW1A,FortiGate-VM64-GCP,7.2.5-b1517,TemplateGroup,ABCDE
+FGT-GCP-GRP2,none,FGT-GCP-PKG2,FGT-GCP-FW-BPRT2,FGT-GCP-FW2A,FortiGate-VM64-GCP,7.2.5-b1517,TemplateGroup,EFGHI
+FGT-GCP-GRP,FGT60ETK1nnnnn,FGT-FW-HOME,FGT-60E,FGT-HOME,Fortigate-60E,7.2.5-b1517,TemplateGroup,none
