@@ -1,0 +1,7 @@
+Item,firewall_name,firewall_vdom,metadata_variable_name,metadata_variable_value
+1,FGT-GCP-FW1,root,branch_id,5
+2,FGT-GCP-FW2,root,branch_id,9
+3,FGT-GCP-FW1A,root,branch_id,99
+4,FGT-GCP-FW2A,root,branch_id,55
+5,FGT-GCP-FW1,root,lan_network,"192.168.2.0 255.255.255.0"
+6,FGT-GCP-FW2,root,lan_network,"192.168.4.0 255.255.255.0"
