@@ -413,7 +413,7 @@ do
         "Create firewall objects based on variable.csv")
             Get_access_token
             Get_session_id
-            variablefilename="variables-3.csv"
+            variablefilename="variables.csv"
             parse_csv "$variablefilename" "process_variables"
             read -n1 -r -p "Press any key to continue..." key
             printmenu
